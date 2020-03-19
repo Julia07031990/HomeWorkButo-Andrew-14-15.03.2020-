@@ -1,0 +1,99 @@
+body{
+    background-image: url("../imgs/fon.png");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.circle{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    top: 70px;
+    margin-left: -80px;
+    left: 50%;
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+}
+.profilePicture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(171,11,161);
+    top: 75px;
+    margin-left: -75px;
+    left: 50%;
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+}
+.userCard{
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 150px;
+    text-align: center;
+}
+.userCard > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 100px;
+    color: #808080;
+}
+.userCard > h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    color: #B6B6B6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.userCard > h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    color: #808080;
+    margin-top: -30px;
+}
+.userCard > h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #808080;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.userCard > hr {
+    width: 350px;
+    margin-top: -10px;
+    color: #808080;
+    opacity: 0.3;
+}
+.verticalAlign {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(77,77,77);
+    display: inline-block;
+    overflow: hidden;
+}
+.fotoContainer {
+    margin-top: 10px;
+}
+.iconContainer {
+
+    margin-top: 40px;
+}
+.verticalIcon {
+    display: inline;
+    margin-left: 5px;
+    border-right: 1px solid #808080;
+}
